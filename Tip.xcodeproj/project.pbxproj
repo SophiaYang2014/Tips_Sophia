@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC530B89199EAB9A00F258A3 /* tip Aug15 in Resources */ = {isa = PBXBuildFile; fileRef = EC530B88199EAB9A00F258A3 /* tip Aug15 */; };
 		EC795C8A199DFCEB00472784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC795C89199DFCEB00472784 /* AppDelegate.swift */; };
 		EC795C8C199DFCEB00472784 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC795C8B199DFCEB00472784 /* ViewController.swift */; };
 		EC795C8F199DFCEB00472784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC795C8D199DFCEB00472784 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC530B88199EAB9A00F258A3 /* tip Aug15 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "tip Aug15"; sourceTree = "<group>"; };
 		EC795C84199DFCEB00472784 /* Tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC795C88199DFCEB00472784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC795C89199DFCEB00472784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				EC795C89199DFCEB00472784 /* AppDelegate.swift */,
 				EC795C8B199DFCEB00472784 /* ViewController.swift */,
+				EC530B88199EAB9A00F258A3 /* tip Aug15 */,
 				EC795C8D199DFCEB00472784 /* Main.storyboard */,
 				EC795C90199DFCEB00472784 /* Images.xcassets */,
 				EC795C87199DFCEB00472784 /* Supporting Files */,
@@ -191,6 +194,7 @@
 			files = (
 				EC795C8F199DFCEB00472784 /* Main.storyboard in Resources */,
 				EC795C91199DFCEB00472784 /* Images.xcassets in Resources */,
+				EC530B89199EAB9A00F258A3 /* tip Aug15 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +330,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Tip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -337,6 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Tip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -395,6 +401,7 @@
 				EC795CA2199DFCEB00472784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC795CA3199DFCEB00472784 /* Build configuration list for PBXNativeTarget "TipTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +410,7 @@
 				EC795CA5199DFCEB00472784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
