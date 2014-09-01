@@ -2,7 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "app_icon_reg.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
     },
     {
       "idiom" : "iphone",

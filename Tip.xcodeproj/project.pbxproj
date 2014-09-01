@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC354F2919B3F5E400E721D2 /* Tip_Sophia.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC354F2819B3F5E400E721D2 /* Tip_Sophia.storyboard */; };
 		EC530B89199EAB9A00F258A3 /* tip Aug15 in Resources */ = {isa = PBXBuildFile; fileRef = EC530B88199EAB9A00F258A3 /* tip Aug15 */; };
 		EC795C8A199DFCEB00472784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC795C89199DFCEB00472784 /* AppDelegate.swift */; };
 		EC795C8C199DFCEB00472784 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC795C8B199DFCEB00472784 /* ViewController.swift */; };
 		EC795C8F199DFCEB00472784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC795C8D199DFCEB00472784 /* Main.storyboard */; };
 		EC795C91199DFCEB00472784 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC795C90199DFCEB00472784 /* Images.xcassets */; };
-		EC795C9D199DFCEB00472784 /* TipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC795C9C199DFCEB00472784 /* TipTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC354F2819B3F5E400E721D2 /* Tip_Sophia.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Tip_Sophia.storyboard; path = "../Tip Cal/Tip_Sophia.storyboard"; sourceTree = "<group>"; };
 		EC530B88199EAB9A00F258A3 /* tip Aug15 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "tip Aug15"; sourceTree = "<group>"; };
 		EC795C84199DFCEB00472784 /* Tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC795C88199DFCEB00472784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,8 +35,6 @@
 		EC795C8E199DFCEB00472784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC795C90199DFCEB00472784 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC795C96199DFCEB00472784 /* TipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC795C9B199DFCEB00472784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC795C9C199DFCEB00472784 /* TipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +58,8 @@
 		EC795C7B199DFCEB00472784 = {
 			isa = PBXGroup;
 			children = (
+				EC354F2819B3F5E400E721D2 /* Tip_Sophia.storyboard */,
 				EC795C86199DFCEB00472784 /* Tip */,
-				EC795C99199DFCEB00472784 /* TipTests */,
 				EC795C85199DFCEB00472784 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,23 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				EC795C88199DFCEB00472784 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EC795C99199DFCEB00472784 /* TipTests */ = {
-			isa = PBXGroup;
-			children = (
-				EC795C9C199DFCEB00472784 /* TipTests.swift */,
-				EC795C9A199DFCEB00472784 /* Supporting Files */,
-			);
-			path = TipTests;
-			sourceTree = "<group>";
-		};
-		EC795C9A199DFCEB00472784 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EC795C9B199DFCEB00472784 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -192,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC354F2919B3F5E400E721D2 /* Tip_Sophia.storyboard in Resources */,
 				EC795C8F199DFCEB00472784 /* Main.storyboard in Resources */,
 				EC795C91199DFCEB00472784 /* Images.xcassets in Resources */,
 				EC530B89199EAB9A00F258A3 /* tip Aug15 in Resources */,
@@ -221,7 +204,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC795C9D199DFCEB00472784 /* TipTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
